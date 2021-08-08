@@ -1,0 +1,89 @@
+/*Etiquetas*/
+
+*{
+	font-family: 'Otomanopee One', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right,rgb(174, 5, 232), rgb( 47, 159, 247) );
+}
+a{
+	text-decoration: none;
+	padding: 10px;
+	color: gray;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+/*Hover*/
+
+a:hover{
+	text-decoration: line-through;
+	opacity: .4;
+}
+
+.type:hover{
+	opacity: .4;
+}
+
+.error:hover{
+	opacity: .4;
+}
+
+.boton:hover{
+	opacity: .4;
+	cursor: pointer;
+}
+
+/*Clases*/
+
+.title{
+	text-align: center;
+	font-size: 50px;
+	transform: translateY(-10px);
+}
+.principal{
+	background: #ffffff;
+	width: 80%;
+	margin: auto;
+	border-radius: 20px;
+}
+.type{
+	padding: 10px;
+	border-radius: 20px;
+	display: flex;
+	margin: auto;
+	width: 80%;
+	transform: translateY(-60px);
+}
+
+.error{
+	padding: 10px;
+	border-radius: 20px;
+	display: flex;
+	margin: auto;
+	width: 80%;
+	background: red;
+	transform: translateY(-60px);
+}
+
+.boton{
+	padding: 3px;
+	border-radius: 50px;
+	display: flex;
+	margin: auto;
+	width: 150px;
+	transform: translateY(-40px);
+	background:  #2fd6f7 ;
+}
+
+.tareas{
+	background: #ffffff;
+	width: 80%;
+	margin: auto;
+	border-radius: 20px;
+	transform: translateY(10px);
+}
